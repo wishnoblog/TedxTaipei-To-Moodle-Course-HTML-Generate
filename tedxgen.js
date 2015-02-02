@@ -7,12 +7,15 @@ function GenTedX()
    var TedXLink=$('#TedXLink').val();
    var YoutubeEm=$('#YoutubeEm').val();
    var TedXLink=$('#TedXLink').val();
+   var Term=$('#term').val();
    //alert('go');
    var HTMLCode=
+   '<h3>'+TedxTitle +'</h3>'+
    '<div>'+YoutubeEm+'</div>'+
    '<div>'+
-   '<h3>'+TedxTitle +'</h3>'+
+   
    '<p>'+YoutubeContent+'</p>'+
+   '<p> 系列：'+Term+'</p>'+
    '</div>'+
    '<h3>相關連結</h3>'+
    '<div>'+'TedX 演講影片：<a href="'+TedXLink+'" target="_blank">'+TedxTitle+'</a>'+'</div>'+
